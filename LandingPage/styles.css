@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.context{
+    width:100%;
+    height: 40em;
+    background-image: url("./home.jpeg");
+    opacity:0.9;
+    padding: 2em;
+
+}
+.context h1{
+    margin-left: 4em;
+    margin-top: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    color: rgba(36, 1, 1, 0.897);
+    opacity:1;
+
+}
+.context p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    margin-left: 10em;
+    margin-bottom: 4em;
+    width: 50%;
+    color: rgb(61, 2, 2);
+    opacity:1;
+    text-align: center;
+
+}
+ .context{
+    width:100%;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header Styles */
+header {
+    background: rgba(36, 1, 1, 0.897);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+/* Hero Section Styles */
+#hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: rgba(36, 1, 1, 0.897);
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#hero h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e63946;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #d62839;
+}
+
+/* Product Section Styles */
+#products {
+    padding: 2rem 0;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    flex: 1;
+    min-width: 200px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 2px solid #e63946;
+}
+
+.product-card h3 {
+    margin: 0.5rem 0;
+}
+
+.product-card p {
+    font-size: 0.9rem;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #e63946;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

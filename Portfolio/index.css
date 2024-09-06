@@ -1,0 +1,297 @@
+header{
+width:100%;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding:10px 20% 0px 9%;
+}
+:root{
+    --color-primary:#191d2b;
+    --color-secondary:#2a2a3a;
+    --color-white:white;
+}
+*{
+    background-color: var(--color-primary);
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color:var(--color-white);
+    transition:all .5s ease-in-out ;
+}
+h1{
+    margin-left:8rem;
+    font-size: 50px;
+    margin-top:6rem;
+   
+}
+h1 div{
+    font-size:xx-large;
+    text-shadow: #191d2b;
+}
+.home{
+    display:inline-flex;
+    flex-direction:row;
+    gap:12em;
+}
+
+.home-content{
+    letter-spacing: 2px;
+    width:100%;
+    height:25em;
+}
+.home .resume{
+    background-color:rgb(37, 22, 175); 
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+    margin-left: 8em;
+    margin-top: 1px;
+    font-weight: 10px;
+    transition: .5s none;
+    letter-spacing: 1px;
+}
+.bx-download{
+    background: transparent;
+    padding-left: 5px;
+}
+
+.home .resume:hover{
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(37, 22, 175),
+    -2px 2px 2px 2px rgb(37, 22, 175);
+}
+
+.about .profile{ 
+    border-radius:12rem;
+    height:25em;
+    width:20em;
+    margin-left: 8em;
+    border: 8px solid  rgb(25, 2, 155);
+    box-shadow: 1em 0.5em 1em 0.5em rgb(50, 31, 158),
+                -1em 0em 1em 0em  rgb(30, 30, 160);
+}
+.about{
+    width:100%;
+    height:34em;
+    background-color: var(--color-secondary);
+}
+.about .heading{
+    background-color: var(--color-secondary);
+    padding-bottom: 1px;
+    padding-top: 30px;
+    letter-spacing: 1px;
+    text-align: right;
+    padding-right: 32.5em;
+}
+.about-content{
+    display: flex;
+    gap:8em;
+    background-color: var(--color-secondary);
+ 
+}
+.about .heading span{
+    color: #281ae7;
+    background-color:var(--color-secondary) ;
+}
+.about p{
+    background-color: var(--color-secondary);
+}
+.about #content{
+    font-size:20px;
+    width: 45%;
+}
+.skill-set{
+        display: flex;
+        grid-row-end:15em;
+        justify-content: space-between; 
+        align-items: flex-start; 
+        gap: 20em; 
+}
+
+.logo{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    display:inline-block;
+    color: rgb(111, 111, 252);
+    margin-right: 30px;
+    font-size:1rem;
+}
+.container .network a{
+    position: inherit;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+.network :hover{
+    color:rgb(71, 87, 214);
+    box-shadow: 1px 0.5px 1px 0.5px rgb(50, 31, 158),
+                -1px 0em 0.5px 0px  rgb(30, 30, 160);
+}
+.navbar{
+    justify-content: space-between;
+    margin-right: 1em;
+    /* font-size: 4em; */
+}
+
+nav :hover{
+    color:rgb(235, 245, 247);
+    font-size:1rem;
+}
+.heading{
+    padding: 10px 10% 0px 0px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.skills{
+    display: flex; 
+    padding: 20px 10%;
+    justify-content: space-between;
+height: 40em;
+}
+.progress-bar{
+    margin-top: 4em;
+    display:flex;
+}
+.skill-set{
+    gap:19em;
+}
+ .progress-bar .language p{
+    font-size: 17px;
+    font-weight: 500;
+ } 
+ .skill-set .progress-bar .percentage{
+    margin-left:7em;
+    position: absolute;
+    border-radius: 10px;
+    width: 20%;
+    height:10px;
+    background-color: black;
+ }
+.skill-set .progress-bar .percentage span{
+    height:100%;
+    background-color: #0f00df;
+    border-radius: 10px;
+    position: absolute;
+ }
+ .percentage.Java{
+    margin-left: 5em;
+ }
+ .percentage.C{
+    margin-left: 5em;
+ }
+ .percentage.Java span{
+    width:60%;
+ }
+ .percentage.C span{
+    width:85%;
+ }
+ .percentage.HTML span{
+    width:70%;
+ }
+ .percentage.CSS span{
+    width:60%;
+ }
+ .percentage.JS span{
+    width:60%;
+ }
+ .percentage.React span{
+    width:55%;
+ }
+.projects{
+    background-color: var(--color-secondary);
+    padding: 20px 10%;
+    height:38em;
+}
+.project{
+    background-color: var(--color-secondary);
+    display: flex;
+}
+.projects .heading{
+    background-color: var(--color-secondary);
+    padding:auto;
+
+}
+
+.projects .components .component{
+    border-radius: 1em;
+    box-shadow:3px 3px 3px 3px rgb(24, 4, 202),
+               -3px -3px 3px -3px rgb(24, 4, 202);
+    width:20em;
+    height:25em;
+    padding:2em;
+    justify-content: ce;
+}
+.projects .components .component i{
+    font-size: 3em;
+    color:blue;
+}
+.projects .components .component .project-details a{
+    text-decoration: none;
+    background-color: rgb(24, 4, 202);
+    color: white;
+    padding:1em;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+.components{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    background-color: var(--color-secondary);
+
+}
+.contacts .heading{
+    padding: 20px 10%;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    margin-bottom: 2em;
+}
+
+form textarea{
+    background-color:  #3d3e49;
+    border-radius: 1em;
+    box-shadow: 0px 0px 3px var(--color-secondary);
+    padding:1em;
+    width: 30em;
+    border: none;
+}
+form input{
+    outline: none;
+    border:none;
+    background-color:  #3d3e49;
+    margin-bottom:auto;
+    width:30em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 3px var(--color-secondary);
+    padding:1em;
+}
+#btn{
+    background-color:rgb(24, 4, 202); 
+    border: none;
+    border-radius: 1.5em;
+    padding:1em 2em;
+    font-weight: 20px;
+    letter-spacing: 1px;
+}
+#btn :hover{
+    background-color:var(#191d2b);
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+.copyright p{
+    background-color: #171414;
+    
+    text-align:center;
+}
